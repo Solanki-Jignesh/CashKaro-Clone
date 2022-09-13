@@ -6,16 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Earn Karo</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/user.svg">
 
 </head>
 <body>
     <header>
     <div><a><img id="bar-icon" src="images/bar.svg"></a></div>
     <div class="logo"><img src="images/logo2.png" alt="logo.png"></div>
-    <div class="search-bar"><input type="text" placeholder="what do you want to buy to day"><i class="fa fa-search" aria-hidden="true"  ></i>
+    <div class="search-bar"><input type="text" placeholder="what do you want to buy to day"> 
+      <img src="images/search-icon.svg" alt="images">
     </div>
     
-    <!-- <div class="search-icon"><img src="search -icon.png" alt="img"></div> -->
+    <!-- <div class="search-icon"><img src="images/search-icon.svg" alt="img"></div> -->
     <div class="nav-bar">
         <ul>
             <li><a class="user-login-text" >How its work</a></li>
@@ -27,22 +29,124 @@
     </div>
     </header>
     
-  <div class="images-slider">
-    <img src="images/amazone.png" alt="">
+  <div id="slider-container" class="images-slider">
+    
+    <div class="slide">
+      <img src="images/amazone.png" alt="">
+  </div>
+
+  <div class="slide">
     <img src="images/amazone2.png" alt="">
+  </div>
+  
+  <div class="slide">
+  <img src="images/amazone3.png" alt="">
+  </div>
+
+    <div class="slide">
+      <img src="images/amazone.png" alt="">
+  </div>
+
+  <div class="slide">
+    <img src="images/amazone.png" alt="">
+  </div>
+
+  <div class="slide">
+  <img src="images/amazone2.png" alt="">
+  </div>
+
+    <div class="slide">
+      <img src="images/amazone.png" alt="">
+  </div>
+
+  <div class="slide">
     <img src="images/amazone3.png" alt="">
   </div>
+
+  <div class="slide">
+  <img src="images/amazone2.png" alt="">
+  </div>
+  </div>
+
+
+
+
+
+  <div onclick="prev()" class="control-prev-btn">
+    <i class="fas fa-arrow-left"> </i>
+ </div>
+ <div onclick="next()" class="control-next-btn">
+   <i class="fas fa-arrow-right"></i>
+ </div>
+  </div>
+   
+  
+  <script>
+
+function prev(){
+		document.getElementById('slider-container').scrollLeft -= 1520;
+}
+
+function next()
+{
+		document.getElementById('slider-container').scrollLeft += 1520;
+}
+
+
+  </script>
+  
+  
+  
+  
+  
+  
+  
+  
   <div class="text">
     <p> TOP CATEGOTIES</p>
    <!-- <p> TOP CASHBACK STORES </p> -->
   </div>
-  <div class="images-slider2">
-    <img src="images/categoties.png" alt="categoties.png">
-    <img src="images/categoties2.png" alt="categoties.png">
-    <img src="images/categoties3.png" alt="categoties.png">
-    <img src="images/categoties3.png" alt="categoties.png">
-    <img src="images/categoties3.png" alt="categoties.png">
-    <img src="images/categoties3.png" alt="categoties.png">
+  
+  
+  <div id="slider-container2" class="images-slider2">
+    <div class="slide2">
+      <img src="images/categoties.png" alt="categoties.png">
+    </div>
+
+    <div class="slide2">
+      <img src="images/categoties.png" alt="categoties.png">
+    </div>
+
+    <div class="slide2">
+      <img src="images/categoties.png" alt="categoties.png">
+    </div>
+
+    <div class="slide2">
+      <img src="images/categoties.png" alt="categoties.png">
+    </div>
+
+    <div class="slide2">
+      <img src="images/categoties.png" alt="categoties.png">
+    </div>
+
+    <div class="slide2">
+      <img src="images/categoties.png" alt="categoties.png">
+    </div>
+   
+    <div class="slide2">
+      <img src="images/categoties.png" alt="categoties.png">
+    </div>
+    
+    <div class="slide2">
+      <img src="images/categoties.png" alt="categoties.png">
+    </div>
+
+    
+    
+    
+    
+v
+   
   </div>
   <div class="text">
     <p> TOP CASHBACK STORES </p>
