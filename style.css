@@ -1,7 +1,9 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: "lato";
 }
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300;1,400&family=Playfair+Display&display=swap');
 body {
   background: #f4f4f4;
   /* overflow: hidden; */
@@ -13,32 +15,40 @@ header {
   background-color: #2f3c97;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   height: 74px;
 }
 header div {
   /* background-color: #2f3c97; */
   margin: 15px;
 }
+#bar-icon {
+  margin: 20px;
+  margin-left: 9px;
+}
 .menu-icon img {
   height: 29px;
 }
 .logo img {
   height: 33px;
+  margin: 0 0% 0 -83%;
 }
 .search-bar img {
+  /* margin: 0 0% 0 -83%; */
   height: 36px;
 }
 .search-bar input {
-    background-color: white;
-    height: 40px;
-    width: 433px;
-    border: none;
-    border-radius: 5px;
-    
-    padding-left: 22px;
+  margin: 0 0 0 -67%;
+  background-color: white;
+  height: 40px;
+  width: 433px;
+  border: none;
+  border-radius: 5px;
+
+  padding-left: 22px;
 }
-.search-bar input[type="text"]{
-    font-size: 15px;
+.search-bar input[type="text"] {
+  font-size: 15px;
 }
 .search-icon img {
   position: absolute;
@@ -51,44 +61,53 @@ header div {
 }
 .nav-bar {
   /* float: right; */
-  position: absolute;
-  right: 0;
-  margin-right: 10px;
+}
+.nav-bar ul li a {
+  display: inline-block;
+  font-size: small;
+  /* right: 20px; */
+  /* margin: 10px 0 0 0; */
 }
 .nav-bar ul {
   display: flex;
+  align-items: center;
   color: white;
   gap: 36px;
   list-style: none;
 }
+#user-icon {
+  margin-left: 10px;
+}
+.user-login-text {
+  position: relative;
+  right: -28px;
+  border-right: 2px solid white;
+  padding-right: 10px;
+}
 
-.images-slider{
+.images-slider {
   display: flex;
   gap: 10px;
   margin: 5px;
   overflow: auto;
-  
-  
 }
-.text{
+.text {
   margin: 15px;
-    /* margin-left: 20px; */
+  /* margin-left: 20px; */
   text-align: left;
   margin-left: 7px;
   margin-bottom: 20px;
   /* font-style:bold  ; */
 }
 
-
 .images-slider2 {
   overflow: auto;
   display: flex;
   gap: 10px;
 }
-.images-slider2 img{
+.images-slider2 img {
   height: 162px;
   width: 200px;
-
 }
 .images-slider3 {
   overflow: auto;
@@ -96,9 +115,8 @@ header div {
   display: flex;
   gap: 10px;
 }
-.images-slider3 img{
+.images-slider3 img {
   height: 190px;
   width: 251px;
   border-radius: 8px;
 }
-
