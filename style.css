@@ -111,9 +111,7 @@ label {
   /* overflow: auto; */
 }
 
-.images-slider::-webkit-scrollbar {
-  display: none;
-  
+
 .slide img {
   width: 500px;
   object-fit: cover;
@@ -188,8 +186,7 @@ label {
   display: flex;
   gap: 10px;
 }
-.images-slider2::-webkit-scrollbar {
-  display: none;
+
 }
 .slide2 {
   /* height: ; */
@@ -207,8 +204,7 @@ label {
   gap: 10px;
 }
 
-.images-slider3::-webkit-scrollbar {
-  display: none;
+
 } 
 .images-slider3 img {
   height: 190px;
