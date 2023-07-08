@@ -31,10 +31,12 @@ header {
 .logo {
   display: flex;
   align-items: center;
-
   justify-content: space-between;
   width:49% ;
   margin-left: 15px;
+}
+#bar-icon{
+  visibility: hidden;
 }
 
 .search-bar {
@@ -74,6 +76,7 @@ label {
   margin: 10px;
 }
 .nav-bar ul {
+
   display: flex;
   align-items: center;
   color: white;
@@ -107,6 +110,10 @@ label {
   overflow-x: scroll;
   /* overflow: auto; */
 }
+
+.images-slider2::-webkit-scrollbar {
+  display: none;
+  
 .slide img {
   width: 500px;
   object-fit: cover;
@@ -181,7 +188,9 @@ label {
   display: flex;
   gap: 10px;
 }
-
+.images-slider2::-webkit-scrollbar {
+  display: none;
+}
 .slide2 {
   /* height: ; */
 }
@@ -190,13 +199,17 @@ label {
   height: 190px;
   width: 250px;
 }
-hamburger
+
 .images-slider3 {
   overflow: auto;
   margin-top: 10px;
   display: flex;
   gap: 10px;
 }
+
+.images-slider3::-webkit-scrollbar {
+  display: none;
+} 
 .images-slider3 img {
   height: 190px;
   width: 251px;
