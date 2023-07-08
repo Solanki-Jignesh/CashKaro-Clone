@@ -111,7 +111,7 @@ label {
   /* overflow: auto; */
 }
 
-.images-slider2::-webkit-scrollbar {
+.images-slider::-webkit-scrollbar {
   display: none;
   
 .slide img {
