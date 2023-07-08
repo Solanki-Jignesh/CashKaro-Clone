@@ -6,7 +6,9 @@
   box-sizing: border-box;
   font-family: "lato";
 }
-
+body::-webkit-scrollbar {
+  display: none;
+}
 body {
   background: #f4f4f4;
   font-family: "Playfair Display", serif;
@@ -20,6 +22,7 @@ header {
   justify-content: space-between;
   height: 74px;
   width: 100%;
+  padding: 0 15px;
 }
 
 .menu-icon img {
@@ -72,7 +75,6 @@ label {
 }
 .nav-bar ul {
   display: flex;
-  width: 300px;
   align-items: center;
   color: white;
   list-style: none;
